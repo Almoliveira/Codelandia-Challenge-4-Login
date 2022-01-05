@@ -1,0 +1,71 @@
+.App {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+}
+
+.imageDivContainer {
+  display: flex;
+  background-color: var(--white300);
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  flex: 0 0 50%;
+  height: 50%;
+}
+
+.container {
+  display: flex;
+  flex: 0 0 50%;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.loginContainer{
+  margin: 0 auto;
+  width: 480px;
+ 
+  
+}
+
+@media screen and (min-width: 641px) and (max-width: 1366px) {
+  .imageDivContainer{
+    display: none;
+  }
+
+  .container{
+    flex: none;
+  }
+
+  .App{
+    display: block;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  .imageDivContainer{
+    display: none;
+  }
+
+  .container{
+    flex: none;
+  }
+  .loginContainer{
+    width: 100%;
+  }
+  .App{
+    display: block;
+    position: relative;
+  }
+}

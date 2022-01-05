@@ -1,0 +1,57 @@
+.welcomeStyle{
+    font-family: 'Merriweather';
+    margin: 30px;
+}
+
+.welcomeStyle>h3{
+    margin: 18px 0;
+    font-weight: normal;
+}
+
+.welcomeStyle>h1{
+    margin: 18px 0;
+    font-weight: 600;
+}
+
+
+.spanContainer{
+    margin: 90px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.linkSpan{
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.inputContainer{
+    margin: 28px 0px;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.flexContainer>div>p{
+    color: var(--blue);
+    cursor: pointer;
+}
+.flexContainer>div>label{
+    margin: 0 8px;
+}
+
+
+@media screen and (max-width: 640px) {
+
+    .welcomeStyle>h3{
+        font-size: medium;
+    }
+    .welcomeStyle>h1{
+        font-size: 28px;
+    }
+    
+    
+  }

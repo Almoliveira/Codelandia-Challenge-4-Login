@@ -1,0 +1,25 @@
+.labelStyle {
+  display: block;
+}
+
+.inputStyle {
+  margin: 8px 0px;
+  width: 100%;
+  border: 1px solid var(--input);
+  border-radius: 8px;
+  height: 48px;
+  text-indent: 10px;
+  font-family: "Lato";
+  outline: 0;
+}
+
+.inputStyle:focus {
+  box-shadow: 0 0 5px hotpink;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid hotpink;
+}
+
+.inputContainer {
+  margin: 12x 0;
+}
